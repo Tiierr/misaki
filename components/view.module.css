@@ -1,0 +1,19 @@
+.preview {
+    max-width: 350px;
+    max-height: 300px;
+    margin-bottom: 2em;
+}
+
+.copyLabel {
+    margin-left: 20%;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.copyLabel:hover {
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    background-color: white;
+}

@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css2?family=Pangolin&display=swap';
+
+h1, p, span {
+    font-family: 'Pangolin', sans-serif;
+}
+
+body {
+    background: azure;
+}
+
+body, header, main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+h1 {
+    order: 0;
+    font-size: 2em;
+    margin: 0;
+}
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    margin: 0;
+}
+main {
+    margin-bottom: 2em;
+}
+
+
+img.logo, img.preview {
+    margin-bottom: 2em;
+}
+
+img.logo {
+    margin-left: 3em;
+}
+
+div.line {
+    display: flex;
+    margin-bottom: 0.5em;
+    width: 20em;
+}
+div.line label, input #submitBtn {
+    color: #66ccff;
+    border: 1px solid;
+    border-radius: 2px;
+    text-align: center;
+}
+
+div.line label {
+    width: 50%;
+    margin-right: 2%;
+}
+
+div.line input {
+    width: 80%;
+}

@@ -1,0 +1,44 @@
+.uploadBtn {
+    cursor: pointer;
+}
+
+.uploadBtn, .submitBtn {
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.uploadBtn:hover, .submitBtn:hover {
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    background-color:white;
+}
+
+
+.submitBtn:hover {
+    background-color: lightblue
+}
+
+.submitBtn {
+    border: 1px solid;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 10%;
+    font-weight: bold;
+}
+
+.uploadForm {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.passwordInput {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
